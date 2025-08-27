@@ -1,0 +1,46 @@
+{
+  "name": "Generador de Códigos QR",
+  "short_name": "QR Generator",
+  "description": "Genera códigos QR para URLs, texto e información de contacto",
+  "start_url": "/qr-code-generator/",
+  "display": "standalone",
+  "background_color": "#8B5CF6",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait-primary",
+  "categories": ["utilities", "productivity"],
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/qr-code-generator/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/qr-code-generator/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/qr-code-generator/apple-touch-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/qr-code-generator/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/qr-code-generator/screenshot-narrow.png",
+      "sizes": "375x812",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
